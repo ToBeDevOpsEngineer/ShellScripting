@@ -13,3 +13,7 @@ NF: No of fields
 $0 : Print Eveything
 $1,$2: Field no 1, Field no 2
 
+Example: To find 4th column form a data with n columns:
+awk '{print $4}' filename
+*** If you want to print last column then instead of putting $number, put NF and the result will be same
+Example: awk '{print $NF}' filename
