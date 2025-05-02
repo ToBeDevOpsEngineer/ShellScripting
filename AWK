@@ -17,3 +17,8 @@ Example: To find 4th column form a data with n columns:
 awk '{print $4}' filename
 *** If you want to print last column then instead of putting $number, put NF and the result will be same
 Example: awk '{print $NF}' filename
+
+To print particular details for a name:
+awk '/Paul/{print $0}' filename
+# Just put two forward slashes after ' and write name of the person or data that you wish to extract and it will give you details of specified data name.
+# $0 is used to get all data in awk to read of a file
