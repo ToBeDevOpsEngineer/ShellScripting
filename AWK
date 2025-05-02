@@ -1,0 +1,15 @@
+####################
+Author : Shrey
+Date: 03 May 2025
+Version: v1
+######################
+
+AWK:
+
+TERMS USED IN AWK:
+
+NR: No. of record/row
+NF: No of fields
+$0 : Print Eveything
+$1,$2: Field no 1, Field no 2
+
